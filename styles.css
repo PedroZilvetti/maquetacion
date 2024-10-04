@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    display: flexbox;
+}
+
+.ej1 {
+    background: rgb(157, 255, 162);
+    height: 100%;
+    padding: 30px;
+}
+
+.ej1 .card1 {
+    width: 410px;
+    background: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.ej1 .card1 img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.ej1 .card1 .subida {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ej1 .card1 .subida h1 {
+    font-size: 64px;
+    color: blueviolet;
+}
+
+.ej1 .card1 .subida p {
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+    padding-top: 5px;
+    font-weight: lighter;
+}
+
+.ej1 .card1 .lista {
+    margin-bottom: 40px;
+    gap: 40px;
+}
+
+.ej1 .card1 .lista li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+
+.ej1 .card1 a {
+    display: block;
+    background-color: #7327E4;
+    margin: 0 auto;
+    ;
+    width: 154px;
+    height: 53px;
+    font-size: 24px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 10px 30px 10px 30px;
+}
+
+.ej2 {
+    background: #ff6969;
+    height: 100%;
+    padding: 30px;
+}
+
+.ej2 .card2 {
+    width: 613px;
+    height: 1079px;
+    background: white;
+    border-radius: 30px;
+    margin: 0px auto;
+    padding: 150px 74px 0 74px;
+}
+
+.ej2 .card2 img {
+    display: block;
+    margin: 0 auto;
+    width: 330;
+    height: 319;
+    border-radius: 100%;
+}
+
+.ej2 .card2 .datos_nombre {
+    width: 445px;
+    height: 341px;
+    padding: 48px 0 150px 0;
+    text-align: center;
+}
+
+.ej2 .card2 .datos_nombre h1 {
+    width: 100%;
+    height: 60px;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.ej2 .card2 .datos_nombre p {
+    height: 75px;
+    text-align: center;
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+
+.ej2 .button2{
+    padding: 24px 100px 24px 100px;
+    border-radius: 46px;
+    border: 0;
+    background-color: #F2B14A;
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    color: white;
+}
+.ej2 .indicador {
+    padding-top: 70px;
+}
+
+.card2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card2 ul li {
+    margin-right: 10px;
+}
+
+.card2 ul li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: darkgrey;
+    border: 0;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+
+.card2 ul li .actual {
+    background: gray;
+
+}
+
+
+.ej3 {
+    background-color: rgba(83, 249, 255, 0.852);
+    height: 100%;
+    padding: 30px;
+}
+
+.ej3 .card3 {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    gap: 10;
+    width: 409px;
+    background-color: white;
+    padding: 35px 48px 0px 48px;
+
+}
+
+.ej3 .card3 img {
+    display: block;
+    margin: 0 auto;
+    width: 215px;
+    height: 215px;
+}
+
+.ej3 .card3 .text {
+    padding: 10px 0 27px 0;
+    width: 313px;
+    height: 153px;
+
+}
+
+.ej3 .card3 .text h1 {
+    font-size: 24px;
+    font-weight: bold;
+    gap: 3px;
+}
+
+.ej3 .card3 .text p {
+    font-size: 17px;
+}
+
+.ej3 .contenedor3 button {
+    border: 0;
+    display: block;
+    background-color: #EE68A1;
+    width: 100%;
+    height: 47px;
+    color: white;
+}
+
+.contenedor3 {
+    width: 449px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    display: block;
+    background-color: #A4476E;
+}
+
+.ej4 {
+    background-color: rgba(92, 131, 0, 0.852);
+    height: 100%;
+    padding: 30px;
+}
+
+.ej4 .card4 {
+    display: flex;
+    width: 845px;
+    height: auto;
+    padding: 11px 18px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 15px solid #000;
+}
+
+.ej4 .card4 .header {
+    display: flex;
+    padding-bottom: 164px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.ej4 .card4 .header p {
+    width: 28px;
+    height: 11px;
+    font-size: 9px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ej4 .card4 .header h2 {
+    width: 171px;
+    font-size: 8px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ej4 .card4 .contenido4 {
+    width: 776px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.ej4 .card4 .contenido4 .textomini {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.ej4 .card4 .contenido4 .textomini p {
+    font-size: 7px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ej4 .card4 .contenido4 .imagecard4 {
+    display: flex;
+    height: 266px;
+    justify-content: center;
+    align-items: center;
+    gap: -9px;
+    align-self: stretch;
+}
+
+.ej4 .card4 .contenido4 .imagecard4 img {
+    height: 260px;
+    width: 261px;
+}
+
+.ej4 .card4 .contenido4 .imagecard4 h1 {
+    color: #000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 370px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -16px;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+.ej5 {
+    background-color: rgba(91, 2, 255, 0.852);
+    height: 100%;
+    padding: 30px;
+}
+
+.ej5 .card5 {
+    width: 581px;
+    height: auto;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000;
+}
+
+.ej5 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    padding-bottom: 50px;
+}
+.ej5 header button{
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid #000;
+    background: none;
+    font-weight: bold;
+    padding: 10px;
+}
+.ej5 header .perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ej5 header .perfil h2{
+    font-size: 15px;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+.ej5 header img{
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.ej5 .contenido5{
+    padding: 20px 0;
+}
+.ej5 .contenido5 h1 {
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.ej5 .contenido5 h2 {
+    font-size: 18px;
+    padding-bottom: 100px;
+    font-weight: lighter;
+}
+.ej5 .contenido5 h3 {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.board{
+    display: flex;
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.board img{
+    height: 240px;
+}
+
+.newboard{
+    margin-right: 100px;
+}
+.inferior{
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.inferior img{
+    height: 240px;
+}
+.inferior h2{
+    font-weight: 700;
+}
+.smoot{
+    margin-right: 110px;
+}
